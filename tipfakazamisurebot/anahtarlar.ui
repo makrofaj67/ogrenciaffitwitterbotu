@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>anahtarlar</class>
+ <widget class="QWidget" name="anahtarlar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>626</width>
+    <height>353</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Twitter Anahtarlarını Gir</string>
+  </property>
+  <widget class="QPushButton" name="anahtarlarikaydet">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>160</y>
+     <width>84</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Kaydet</string>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>471</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="kactivitlabel">
+       <property name="text">
+        <string>apikey</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::RichText</enum>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="kactivitlabel_2">
+       <property name="text">
+        <string>apikeysecret</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="kactivitlabel_3">
+       <property name="text">
+        <string>bearertoken</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="kactivitlabel_4">
+       <property name="text">
+        <string>accesstoken</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="kactivitlabel_5">
+       <property name="text">
+        <string>accesstokensecret</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="apikeyline"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="apikeysecretline"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="bearertokenline"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="accesstokenline"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="accesstokensecretline"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
