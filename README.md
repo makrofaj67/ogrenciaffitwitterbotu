@@ -1,6 +1,4 @@
 # selenium-ogrenciaffi-twitterbot
-Sesimizi duyurabilmek için tivitır botu.
-
 
 Kullanımını şu videoda izleyebilirsiniz 
 
